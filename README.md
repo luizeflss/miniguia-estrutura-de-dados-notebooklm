@@ -21,3 +21,21 @@ Os seguintes materiais acadêmicos foram selecionados e carregados no NotebookLM
 **Teste 2: Aplicação Prática**
 * **Prompt:** *"Com base na Aula 03, crie um pequeno exercício prático em Java sobre Pilhas (Stacks) verificando se uma palavra é um palíndromo, e mostre a resolução passo a passo."*
 * **Resposta da IA:** Gerou um código utilizando os métodos `.push()` e `.pop()` para inverter a String e comparar com a original, validando a regra LIFO (Last In, First Out).
+
+## Miniguia de Estudo (Entrega Final)
+### Resumo Estruturado
+* **Alocação de Memória:** Em linguagens como C, o programador gerencia a memória manualmente (ex: `malloc`). Em linguagens de alto nível, o processo costuma ser automatizado (Garbage Collector), mas entender o consumo de memória é vital para a performance.
+* **Recursividade:** Uma função que chama a si mesma até atingir uma condição de parada (caso base). Essencial para percorrer árvores e resolver problemas complexos com menos linhas de código.
+* **Pilhas (Stacks):** Estrutura linear baseada no princípio LIFO (o último a entrar é o primeiro a sair). Muito usada em funções de "Desfazer" de softwares e validação de expressões.
+
+### Glossário
+* **LIFO (Last In, First Out):** Princípio onde o último elemento adicionado à estrutura é o primeiro a ser removido.
+* **Caso Base:** A condição de parada dentro de uma função recursiva que impede um loop infinito (Stack Overflow).
+* **Array:** Estrutura de dados estática que armazena elementos do mesmo tipo em posições de memória contíguas.
+* **Ponteiro:** Uma variável que armazena o endereço de memória de outra variável.
+
+### Prompts Reutilizáveis para Revisão
+Para futuras revisões no NotebookLM ou ChatGPT, utilize os prompts abaixo:
+1. *"Atue como um professor de algoritmos. Me faça 3 perguntas de múltipla escolha sobre Pilhas e Filas com base nos meus documentos. Só me dê a resposta após eu tentar responder."*
+2. *"Resuma o processo de alocação dinâmica de memória em tópicos curtos e cite um exemplo prático de onde isso pode causar um vazamento de memória (memory leak)."*
+3. *"Gere um mapa mental em formato de texto relacionando Listas, Arrays e Pilhas."*
